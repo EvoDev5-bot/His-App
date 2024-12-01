@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#D1FA99;
+    color:#1e1e1e;
+    padding:20px;
+    font-family: "Short Stack";
+    font-size:40px;
+    font-weight: 300;
+    padding-top:150px;
+}
+
+body.dark{
+    color:#f5f5f5;
+    background-color: #2e5627;
+}
+
+h2.welcomeMsg{
+    margin-top:30px;
+    font-size: 0px;
+    height:0;
+    width: 10px;
+    background-color:#8DD72A;
+    display: inline-block;
+    border-radius:15px;
+    font-family:"Sour Gummy";
+}
+
+.welcomeMsg.dark{
+    background-color: #4b8f1a;
+}
+
+.switchModeBtn{
+    background:transparent;
+    border: none;
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+
+button.createNewChat{
+    color:#1e1e1e;
+    font-size: 0px; 
+     height:0;
+     width: 10px;
+    background-color:#8DD72A;
+    position: relative;
+    text-align: left;
+    font-family: 'Short Stack';
+    border-radius:20px;
+    border-bottom:5px solid green;
+    border-right:5px solid green;
+    border-top:none;
+    border-left:none;
+    cursor: pointer;
+    position: absolute;
+    right:10px;
+    top:10px
+}
+
+button.createNewChat:active{
+    border-top:5px solid green;
+    border-left:5px solid green;
+    border-bottom:none;
+    border-right:none;
+}
+
+button.createNewChat.dark{
+    background-color: #4b8f1a;
+    color:#f5f5f5;
+    border-bottom:2px solid #009900;
+    border-right:2px solid #009900;
+}
+
+button.createNewChat.dark:active{
+    border-left:2px solid #009900;
+    border-right:2px solid #009900;
+}
+
+div.chat{
+    color:#1e1e1e;
+    width: fit-content;
+    background-color: lime;
+    border-radius:20px;
+    border: 5px solid green;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px;
+    margin-top:50px;
+    cursor:pointer
+}
+
+div.chat.dark{
+    background-color: #00cc00;
+    border:5px solid #009900;
+    color:#efefef
+}
+
+.exit{
+    position:absolute;
+    left:15px;
+    top:45px;
+    width:200px;
+    background:transparent;
+    border: 5px solid limegreen;
+    font-size:40px;
+    font-family:'Sour Gummy';
+    border-radius:10px;
+    cursor:pointer;
+    color:#1e1e1e
+}
+
+.exit.dark{
+    border:5px solid #229922;
+    color:#f5f5f5
+}
