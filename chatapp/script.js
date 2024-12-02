@@ -51,7 +51,7 @@ const start = async () => {
   });
 
   $("button.createNewChat").click(() => {
-    window.location = "./chatapp/createNewChat";
+    window.location = "./createNewChat";
   });
 
   displayChats(user);
