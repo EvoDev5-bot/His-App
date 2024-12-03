@@ -45,7 +45,7 @@ const start = async () => {
 
   if (!chatID) window.location = "./";
   const chatArray = await findChatByID(chatID).then((res) => res.result);
-  if (chatArray.length == 0) window.location = "./";
+  if (chatArray.length == 0) window.location = "../";
   const chat = chatArray[0];
 
   // addMockMsg(chat, "Hi", 12);
@@ -68,7 +68,7 @@ const start = async () => {
     putNewChatData(chat.id, { messages: chat.messages });
   });
 
-  $(".exit").click(() => (window.location = "./"));
+  $(".exit").click(() => (window.location = "../"));
 };
 
 const addMockMsg = (chat, text, order) => {

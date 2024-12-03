@@ -42,7 +42,7 @@ const start = async () => {
   });
 
   $(".chatapp").click(() => {
-    window.location = "../chatapp";
+    window.location = "../chatapp/";
   });
 };
 

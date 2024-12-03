@@ -2,7 +2,7 @@ import { findUsers, login, switchMode } from "../utils.js";
 const modeList = [".exit", ".error", "button.login", "input", "div", "body"];
 
 if (sessionStorage.getItem("loggedIn") == "1") {
-  window.location = "../home";
+  window.location = "../home/";
 }
 const start = () => {
   $(".switchModeBtn").click(() => {

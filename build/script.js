@@ -1,7 +1,7 @@
 import { switchMode } from "./utils.js";
 
 if (sessionStorage.getItem("loggedIn") == "1") {
-  window.location = "./home";
+  window.location = "./home/";
 }
 
 const darkModeList = ["body", ".welcomeMsg", "button.normal", ".info"];
@@ -49,10 +49,10 @@ const code = () => {
     );
 
   $(".signup").click(() => {
-    window.location = "./signup";
+    window.location = "./signup/";
   });
   $(".login").click(() => {
-    window.location = "./login";
+    window.location = "./login/";
   });
 
   if (sessionStorage.getItem("loggedIn") == "1") {

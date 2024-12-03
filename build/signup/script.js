@@ -7,7 +7,7 @@ const modeList = [
   "div",
   "body",
 ];
-if (sessionStorage.getItem("loggedIn") == "1") window.location = "../home";
+if (sessionStorage.getItem("loggedIn") == "1") window.location = "../home/";
 
 const start = async () => {
   $(".switchModeBtn").click(() => {
